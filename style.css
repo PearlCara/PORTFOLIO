@@ -9,9 +9,6 @@ h1 {
     color:#993366 ;
     font-size: larger;
 }
-img{
-    border-radius: 50%;
-}
 p{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
@@ -21,6 +18,13 @@ p{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    opacity:75;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+a{
+    text-decoration: none;
 }
 .right-navbar span,.right-navbar button{
     margin-left: 20px;
@@ -35,6 +39,7 @@ p{
     display:grid ;
     justify-content: center ;
     align-items: center;
+    text-align: center;
     padding: 50px 20px ;
     background-color: bisque;
 }
@@ -50,9 +55,10 @@ p{
 }
 .hero-text{
     padding: 20px;
+    color: rgb(18, 60, 105);
 }
 button {
-    background-color:;
+    background-color:rgb (186,178,181);
     border-radius: 10%;
     font-size: larger;
     border: none;
@@ -68,38 +74,45 @@ button:hover{
    text-align: center;
    padding: 10px;
    margin: 10px;
+   display: flex;
+   justify-content: space-around;
+}
+.myself img{
+    max-width: 100%;
+    height: auto;
 }
 .skills {
-   /* display: flex; */
+ 
    justify-content: space-around;
-   background-color: white;
+   background-color: rgb(238, 226, 220);
    margin: 10px;
    text-align: center;
    padding: 10px;
 }
 .skills-type{
-    display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.right-skills {
     text-align: center;
     padding: 20px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    display: flex;
 }
-h4:hover {
-    color:coral ;
+.right-skills{
+    justify-content: space-around;
+    padding: 10px;
 }
-h4{
-    text-decoration: underline;
-     font-size: larger;
+
+.hard-skills,.soft-skills{
+    display: flex;
 }
 .tooltip {
     position: relative;
     display: inline-block;
     cursor: default;
+    font-size: larger;
+    color: rgb(154, 23, 80);
   }
 .tooltip .tooltiptext {
     visibility: hidden;
@@ -127,7 +140,6 @@ li{
 }
 .education {
     justify-content: space-around;
-   
     background-color: white;
     padding: 10px;
     margin: 10px;
@@ -144,14 +156,16 @@ li{
     
 }
 .work{
-    background-color: white;
+    background-color: rgb(238, 226, 220);
     padding: 10px;
     margin: 10px;
+    text-align: center;
 }
 .contact{
     background-color: white;
     padding: 10px;
     margin: 10px; 
+    text-align: center;
 }
 h2{
    text-align: center;
@@ -160,4 +174,5 @@ h2{
 .footer{
     text-align: center;
     background-color: white;
+    color: #993366;
 }
