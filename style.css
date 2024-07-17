@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+   margin: 0 ;
+}
+body{
+    justify-content: center;
+}
+h1 {
+    color:#993366 ;
+    font-size: larger;
+}
+img{
+    border-radius: 50%;
+}
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.navbar {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.right-navbar span,.right-navbar button{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.right-navbar button{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.hero {
+    display:grid ;
+    justify-content: center ;
+    align-items: center;
+    padding: 50px 20px ;
+    background-color: bisque;
+}
+.right-hero{
+    align-items: center;
+}
+.hero img{
+    width:250px;
+    height: 250px;
+}
+.hero .right-hero h3{
+    margin: 0;
+}
+.hero-text{
+    padding: 20px;
+}
+button {
+    background-color:;
+    border-radius: 10%;
+    font-size: larger;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(127, 16, 131); 
+}
+.myself { 
+   background-color:white;
+   border-radius: 8px;
+   text-align: center;
+   padding: 10px;
+   margin: 10px;
+}
+.skills {
+   /* display: flex; */
+   justify-content: space-around;
+   background-color: white;
+   margin: 10px;
+   text-align: center;
+   padding: 10px;
+}
+.skills-type{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-skills {
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h4:hover {
+    color:coral ;
+}
+h4{
+    text-decoration: underline;
+     font-size: larger;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: default;
+  }
+.tooltip .tooltiptext {
+    visibility: hidden;
+    padding: 0.25em 0.5em;
+    background-color: rgb(116, 14, 90);
+    color: #fff;
+    text-align: center;
+    border-radius: 0.25em;
+    white-space: nowrap;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 100%;
+    transition-property: visibility;
+    transition-delay: 0s;
+  }
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    transition-delay: 0.3s;
+  }
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.education {
+    justify-content: space-around;
+   
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    /* display: flex; */
+}
+.education-types{
+    display: flex;
+    justify-content: space-around;
+}
+.left-education,.right-education{
+    width: 400px;
+    box-shadow: 0 4px 8px ;
+    padding: 20px;
+    
+}
+.work{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.contact{
+    background-color: white;
+    padding: 10px;
+    margin: 10px; 
+}
+h2{
+   text-align: center;
+    text-decoration-color: blueviolet;
+}
+.footer{
+    text-align: center;
+    background-color: white;
+}
